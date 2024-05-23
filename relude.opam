@@ -35,5 +35,5 @@ build: [
   ]
 ]
 pin-depends: [
-  [ "bastet.dev" "git+https://github.com/johnhaley81/bastet.git#6c8f53a9da55254691df49bddf96b279b38be204" ]
+  [ "bastet.dev" "git+https://github.com/Emilios1995/bastet.git#melange" ]
 ]

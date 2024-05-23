@@ -40,7 +40,7 @@ let throttle =
       timerId :=
         Some(
           Js.Global.setTimeout(
-            () => {
+            ~f=() => {
               isThrottled := false;
               timerId := None;
             },
