@@ -2,7 +2,7 @@
 
 (library
  (name relude)
- (public_name relude)
+ (public_name tan-relude)
  (libraries tan-bastet melange.node melange.belt)
  (modes melange)
  (preprocess

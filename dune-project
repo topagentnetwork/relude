@@ -4,7 +4,7 @@
  ; (action-plugin 0.1)
 (using melange 0.1)
 
-(name relude)
+(name tan-relude)
 
 (license "MIT")
 
@@ -17,7 +17,7 @@
 (bug_reports https://github.com/topagentnetwork/relude/issues)
 
 (package
- (name relude)
+ (name tan-relude)
  (synopsis "Relude")
  (description "Alternative standard library (prelude) for ReasonML"))
 
