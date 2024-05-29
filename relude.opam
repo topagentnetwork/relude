@@ -7,16 +7,16 @@ maintainer: [
 # authors: [""]
 # license: ""
 tags: []
-homepage: "https://github.com/reazen/relude"
+homepage: "https://github.com/topagentnetwork/relude"
 # doc: ""
-bug-reports: "https://github.com/reazen/relude/issues"
+bug-reports: "https://github.com/topagentnetwork/relude/issues"
 depends: [
   "ocaml" {>= "5.1.0"}
   "reason" {>= "3.10.0"}
   "odoc" {>= "1.5.0" & with-doc}
   "dune" {>= "3.8"}
   "melange" {>= "2.0.0"}
-  "bastet" {dev}
+  "tan-bastet" {>= "3.0"}
   "melange-jest" {>= "0.1.0"}
 ]
 build: [
@@ -33,7 +33,4 @@ build: [
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
-]
-pin-depends: [
-  [ "bastet.dev" "git+https://github.com/Emilios1995/bastet.git#melange" ]
 ]

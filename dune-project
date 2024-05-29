@@ -12,9 +12,9 @@
 
 (authors <your_name>)
 
-(homepage https://github.com/reazen/relude)
+(homepage https://github.com/topagentnetwork/relude)
 
-(bug_reports https://github.com/reazen/relude/issues)
+(bug_reports https://github.com/topagentnetwork/relude/issues)
 
 (package
  (name relude)
