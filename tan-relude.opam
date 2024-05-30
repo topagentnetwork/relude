@@ -8,6 +8,7 @@ maintainer: [
 # license: ""
 tags: []
 homepage: "https://github.com/topagentnetwork/relude"
+dev-repo: "git+https://github.com/topagentnetwork/relude.git"
 # doc: ""
 bug-reports: "https://github.com/topagentnetwork/relude/issues"
 depends: [
