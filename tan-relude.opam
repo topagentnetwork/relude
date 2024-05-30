@@ -1,6 +1,6 @@
 opam-version: "2.0"
 synopsis: "relude!"
-version: "3.0.0"
+version: "3.0.2"
 maintainer: [
   "Michael Martin"
   "Andy White"
